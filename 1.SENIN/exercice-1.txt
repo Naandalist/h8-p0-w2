@@ -1,0 +1,157 @@
+**********************************************************
+* 1.Newton Second Law
+**********************************************************
+
+[Pseudocode] :
+
+	STORE 'm' to 600 
+	STORE 'a' to 2 
+	STORE 'F' without any values
+	
+	CALCULATE 'm' times 'a'
+	SET 'F' with the calculation result
+
+	DISPLAY 'F' 
+	
+
+[algoritma]:
+
+	1. SIMPAN 'm' dengan nilai 600	
+	2. SIMPAN 'a' dengan nilai 2
+	3. SIMPAN 'F' dengan nilai berapapun
+	4. HITUNG hasil perkalian 'm' dengan 'a'
+	5. ISIKAN hasil perkalian tersebut ke dalam 'F'
+	6. TAMPILKAN nilai 'F'
+
+**********************************************************
+* 2. Tahun Kabisat
+**********************************************************
+
+[Pseudocode] :
+
+	STORE 'tahun' with any number
+	
+	CALCULATE 'tahun' mod 4
+	IF 'remainder' equals to 0
+		CALCULATE 'tahun' mod 100
+		IF 'remainder' not equals to 0
+		DISPLAY "tahun adalah kabisat"
+
+		ELSE IF 'remainder' equals to 0
+		CALCULATE 'tahun' mod 400
+		IF 'remainder' equals to 0
+		DISPLAY "tahun adalah kabisat"
+
+		ELSE 
+		DISPLAY "tahun bukan kabisat"
+	
+	ELSE 
+	DISPLAY "tahun bukan kabisat".
+
+
+[Algoritma] :
+
+	1. SIMPAN 'tahun' dengan nilai berapapun
+	2. HITUNG pembagian 'tahun' dengan 4
+	3. JIKA hasil pembagian sama dengan 0
+	4. HITUNG pembagian 'tahun' dengan 100
+	5. JIKA hasil pembagian TIDAK SAMA dengan 0
+	6. TAMPILKAN 'tahun adalah kabisat'
+	
+	7. NAMUN JIKA hasil pembagian sama dengan 0
+	8. HITUNG pembagian 'tahun' dengan 400
+	9. JIKA hasil pembagian sama dengan 0
+	10. TAMPILKAN "tahun adalah kabisat"
+
+	11. selain itu TAMPILKAN "tahun bukan kabisat"
+**********************************************************
+* 3. Laundry Day
+**********************************************************
+
+[Pseudocode]
+
+	STORE 'pakaian' to 1
+	STORE 'isi-max-mesinCuci' to 20
+
+	WHILE 'pakaian' <= 'isi-max-mesinCuci'
+	ADD 'pakaian' by 1
+	
+	DISPLAY 'Mesin cuci siap dihidupkan"
+
+[ALgoritma]
+
+	1. SIMPAN 'pakaian' dengan nilai 1
+	2. SIMPAN 'isi-max-mesinCuci' dengan nilai 20
+
+	3. SELAMA 'pakaian' lebih sedikit atau sama dengan 'isi-max-mesinCuci'
+	4. TAMBAHKAN 'pakaian' dengan nilai 1
+	
+	5. TAMPILKAN "Mesin cuci siap dihidupkan"
+
+**********************************************************
+* 4. Periksa Kuku
+**********************************************************
+[Pseudocode]:
+	
+	
+	STORE 'jumlah-Murid' to 40
+	STORE 'Kuku-panjang' to true or false 
+	STORE 'antrian-periksa-kuku' to 0
+
+	WHILE 'antrian-periksa-kuku' <= 'jumah-Murid'
+	ADD 'antrian-periksa-kuku' by 1
+
+	IF 'kuku-panjang' equal to true
+		DO 'berikan hukuman yang setimpal'
+	ELSE IF 'kuku-panjang' equal to false
+		DO 'berikan pujian'
+
+
+[Algoritma]:
+	
+	1. SIMPAN 'jumlah-Murid' dengan nilai 40
+	2. SIMPAN 'kuku-panjang' dengan nilai true atau false
+	3. SIMPAN 'antrian-periksa-kuku' dengan nilai 0
+
+	4. SELAMA 'antrian-kuku-panjang' kurang dari atau sama dengan 'jumlah-Murid'
+	5. TAMBAHKAN 'antrian-periksa-kuku' dengan nilai 1
+
+	6. JIKA 'kuku-panjang' adalah benar
+	7. LAKUKAN 'berikan hukuman yang setimpal'
+	8. NAMUN JIKA 'kuku-panjang' adalah false
+	9. LAKUKAN 'berikan pujian'
+
+
+
+
+
+		
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
