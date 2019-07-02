@@ -76,5 +76,5 @@ if ((tanggal > 0 && tanggal <32) && (bulan > 0 && bulan < 13) && (tahun >= 1900 
     }
 }
 else {
-    console.log("invalid input")
+    console.log("invalid input");
 }
