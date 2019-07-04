@@ -32,13 +32,19 @@
 	STORE 'tahun' with any number
 	
 	CALCULATE 'tahun' mod 4
+	
+	STORE 'remainder' to the result of calculation
 	IF 'remainder' equals to 0
 		CALCULATE 'tahun' mod 100
+		
+		STORE 'remainder' to the result of calculation
 		IF 'remainder' not equals to 0
 		DISPLAY "tahun adalah kabisat"
 
 		ELSE IF 'remainder' equals to 0
 		CALCULATE 'tahun' mod 400
+
+		STORE 'remainder' to the result of calculation
 		IF 'remainder' equals to 0
 		DISPLAY "tahun adalah kabisat"
 
@@ -53,17 +59,23 @@
 
 	1. SIMPAN 'tahun' dengan nilai berapapun
 	2. HITUNG pembagian 'tahun' dengan 4
-	3. JIKA hasil pembagian sama dengan 0
-	4. HITUNG pembagian 'tahun' dengan 100
-	5. JIKA hasil pembagian TIDAK SAMA dengan 0
-	6. TAMPILKAN 'tahun adalah kabisat'
+	3. SIMPAN hasil dari pembagian
+	4. JIKA hasil pembagian sama dengan 0
+	5. HITUNG pembagian 'tahun' dengan 100
+	6. SIMPAN hasil dari pembagian
+	7. JIKA hasil pembagian TIDAK SAMA dengan 0
+	8. TAMPILKAN 'tahun adalah kabisat'
 	
-	7. NAMUN JIKA hasil pembagian sama dengan 0
-	8. HITUNG pembagian 'tahun' dengan 400
-	9. JIKA hasil pembagian sama dengan 0
-	10. TAMPILKAN "tahun adalah kabisat"
+	9. SIMPAN hasil dari pembagian
+	10. NAMUN JIKA hasil pembagian sama dengan 0
+	11. HITUNG pembagian 'tahun' dengan 400
+	12. SIMPAN hasil dari pembagian
+	13. JIKA hasil pembagian sama dengan 0
+	14. TAMPILKAN "tahun adalah kabisat"
 
-	11. selain itu TAMPILKAN "tahun bukan kabisat"
+	15. selain itu TAMPILKAN "tahun bukan kabisat"
+
+
 **********************************************************
 * 3. Laundry Day
 **********************************************************
@@ -71,9 +83,9 @@
 [Pseudocode]
 
 	STORE 'pakaian' to 1
-	STORE 'isi-max-mesinCuci' to 20
+	STORE 'isiMax' to 20
 
-	WHILE 'pakaian' <= 'isi-max-mesinCuci'
+	WHILE 'pakaian' <= 'isiMax'
 	ADD 'pakaian' by 1
 	
 	DISPLAY 'Mesin cuci siap dihidupkan"
@@ -81,9 +93,9 @@
 [ALgoritma]
 
 	1. SIMPAN 'pakaian' dengan nilai 1
-	2. SIMPAN 'isi-max-mesinCuci' dengan nilai 20
+	2. SIMPAN 'isiMax' dengan nilai 20
 
-	3. SELAMA 'pakaian' lebih sedikit atau sama dengan 'isi-max-mesinCuci'
+	3. SELAMA 'pakaian' lebih sedikit atau sama dengan 'isiMax'
 	4. TAMBAHKAN 'pakaian' dengan nilai 1
 	
 	5. TAMPILKAN "Mesin cuci siap dihidupkan"
@@ -94,31 +106,31 @@
 [Pseudocode]:
 	
 	
-	STORE 'jumlah-Murid' to 40
-	STORE 'Kuku-panjang' to true or false 
-	STORE 'antrian-periksa-kuku' to 0
+	STORE 'jumlahMurid' to 40
+	STORE 'KukuPanjang' to true or false 
+	STORE 'antrianPeriksaKuku' to 0
 
-	WHILE 'antrian-periksa-kuku' <= 'jumah-Murid'
-	ADD 'antrian-periksa-kuku' by 1
+	WHILE 'antrianPeriksaKuku' <= 'jumahMurid'
+	ADD 'antrianPeriksaKuku' by 1
 
-	IF 'kuku-panjang' equal to true
+	IF 'kukuPanjang' equals to true
 		DO 'berikan hukuman yang setimpal'
-	ELSE IF 'kuku-panjang' equal to false
+	ELSE IF 'kukuPanjang' equals to false
 		DO 'berikan pujian'
 
 
 [Algoritma]:
 	
-	1. SIMPAN 'jumlah-Murid' dengan nilai 40
-	2. SIMPAN 'kuku-panjang' dengan nilai true atau false
-	3. SIMPAN 'antrian-periksa-kuku' dengan nilai 0
+	1. SIMPAN 'jumlahMurid' dengan nilai 40
+	2. SIMPAN 'kukuPanjang' dengan nilai true atau false
+	3. SIMPAN 'antrianPeriksaKuku' dengan nilai 0
 
-	4. SELAMA 'antrian-kuku-panjang' kurang dari atau sama dengan 'jumlah-Murid'
-	5. TAMBAHKAN 'antrian-periksa-kuku' dengan nilai 1
+	4. SELAMA 'antrianKukuPanjang' kurang dari atau sama dengan 'jumlahMurid'
+	5. TAMBAHKAN 'antrianPeriksaKuku' dengan nilai 1
 
-	6. JIKA 'kuku-panjang' adalah benar
+	6. JIKA 'kukuPanjang' adalah benar
 	7. LAKUKAN 'berikan hukuman yang setimpal'
-	8. NAMUN JIKA 'kuku-panjang' adalah false
+	8. NAMUN JIKA 'kukuPanjang' adalah false
 	9. LAKUKAN 'berikan pujian'
 
 
