@@ -36,7 +36,7 @@ for (num =20; num >0; num--){
 
 
 /*********************************************
-* 3. ANgka Ganjil dan Genap
+* 3. Angka Ganjil dan Genap
 **********************************************/
 
 var counter =1;
@@ -56,9 +56,7 @@ for (counter =1; counter <=100; counter +=2){
     if (counter %3 == 0){
         console.log(counter +" KELIPATAN 3");
     }
-    else{
-        console.log("");
-    }
+    
 }
 
 console.log("6 KELIPATAN 6")
@@ -66,9 +64,7 @@ for (counter =1; counter <=100; counter +=5){
     if (counter %6 ==0){
         console.log(counter +" KELIPATAN 6");
     }
-    else {
-        console.log("");
-    }
+    
 }
 
 console.log("10 KELIPATAN 10")
@@ -76,7 +72,5 @@ for (counter =1; counter <=100; counter +=9){
     if (counter %10 ==0){
         console.log(counter +" KELIPATAN 10");
     }
-    else{
-        console.log("");
-    }
+    
 }
